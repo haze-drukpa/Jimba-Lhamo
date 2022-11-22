@@ -1,0 +1,127 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(rgb(243, 212, 212), blue);
+}
+img{
+    border-radius: 20%;
+    box-shadow:
+    
+}
+
+button{
+
+    background-color: rgb(77, 232, 90);
+    border-radius: 10%;
+    border-style: hidden;
+}
+
+table, th, td, tr{
+border: 1px orangered;
+margin: auto;
+padding:10px;
+height:60px;
+width:200px;
+outline-style:none;
+text-align:center;
+position: static;
+border-collapse: collapse;
+
+}
+#noamed{
+    text-decoration: underline purple;
+    color: orangered;
+}
+th, td {
+    background-color: pink;
+    border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 40px;
+        border-spacing: 10px;
+      }
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+#come{
+    color: blueviolet;
+    text-decoration: underline blue;
+}
+
+.dropbtn {
+    background-color:lightgoldenrodyellow;
+    color: black;
+    padding: 19px;
+    font-size: 13px;
+    border: none;
+    cursor: crosshair;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: orangered;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px pink;
+    z-index: 1;
+    
+  }
+  .dropdown:hover .dropdown-content{
+    display: list-item;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: orange;
+  }
+
+
+  header {
+    height: 10vh;
+  background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Logo image in the header */
+  header img {
+    width: 45px;
+  }
+  
+  ul {
+    text-align: center;
+    margin-right: 2rem;
+  }
+  
+  li {
+    color: white;
+    display: inline-block; 
+    margin: 0 0 0 20px;
+    cursor: pointer;
+    font-size: 2em;
+    font-weight: 700;
+    transition: 0.3s ease;
+  }
+  
+  li:hover,
+  li:active {
+  color: black;
+  }
+  
